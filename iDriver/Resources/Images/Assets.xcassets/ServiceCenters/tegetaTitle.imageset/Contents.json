@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tegetaTitle.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

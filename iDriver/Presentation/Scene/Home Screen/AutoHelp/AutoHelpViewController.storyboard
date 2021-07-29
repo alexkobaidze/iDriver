@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auto Help View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AutoHelpViewController" id="Y6W-OH-hqX" customClass="AutoHelpViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wtp-c6-BiV">
+                                <rect key="frame" x="0.0" y="155" width="414" height="581"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="581" id="Oir-7w-rJE"/>
+                                    <constraint firstAttribute="width" constant="414" id="uV3-sI-rz3"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AutoHelpCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AutoHelpCell" rowHeight="501" id="cKt-LX-HNw" customClass="AutoHelpCell" customModule="iDriver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="501"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cKt-LX-HNw" id="Igb-Gv-r4o">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="501"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4F-BC-Q5y">
+                                                    <rect key="frame" x="20" y="11" width="374" height="479"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mkA-KS-lcz">
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="168"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Juba. ჯუბა ევაკუატორი" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqG-2j-fAg">
+                                                            <rect key="frame" x="100" y="176" width="174" height="77"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kar-fC-wfM">
+                                                            <rect key="frame" x="25" y="261" width="325" height="122"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <string key="text">კომპანია ჯუბა გთავაზობთ ავტოამწით მომსახურებას, საუკეთესო ფასად საქართველოს მთელ ტერიტორიაზე, დაგეხმარებიან კვალიფიციური და გამოცდილი მძღოლები.
+</string>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fH3-Yp-HY5" userLabel="კონტაქტი:  +995 555 555 555 +995 555 555 222">
+                                                            <rect key="frame" x="25" y="391" width="325" height="80"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <string key="text">კონტაქტი: 
++995 555 555 555
++995 555 555 222</string>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="374" id="BIl-9A-Fsx"/>
+                                                        <constraint firstAttribute="height" constant="479" id="D3O-wx-pXc"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            <constraints>
+                                                <constraint firstItem="j4F-BC-Q5y" firstAttribute="top" secondItem="Igb-Gv-r4o" secondAttribute="topMargin" id="EOq-Qz-AXh"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="j4F-BC-Q5y" secondAttribute="bottom" id="F0e-sU-1PJ"/>
+                                                <constraint firstItem="j4F-BC-Q5y" firstAttribute="leading" secondItem="Igb-Gv-r4o" secondAttribute="leadingMargin" id="Hco-Ds-CQE"/>
+                                                <constraint firstItem="j4F-BC-Q5y" firstAttribute="bottom" secondItem="Igb-Gv-r4o" secondAttribute="bottomMargin" id="Kpa-w4-fQB"/>
+                                                <constraint firstItem="j4F-BC-Q5y" firstAttribute="trailing" secondItem="Igb-Gv-r4o" secondAttribute="trailingMargin" id="Mpq-vd-7fN"/>
+                                                <constraint firstItem="j4F-BC-Q5y" firstAttribute="top" secondItem="Igb-Gv-r4o" secondAttribute="topMargin" id="VqH-6E-wlu"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="j4F-BC-Q5y" secondAttribute="trailing" id="Xf4-uI-xaE"/>
+                                                <constraint firstItem="j4F-BC-Q5y" firstAttribute="leading" secondItem="Igb-Gv-r4o" secondAttribute="leadingMargin" id="yG6-k0-Owo"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <connections>
+                                            <outlet property="autoHelpImage" destination="mkA-KS-lcz" id="FGx-Cc-JKM"/>
+                                            <outlet property="cellView" destination="j4F-BC-Q5y" id="kn0-XJ-O3w"/>
+                                            <outlet property="descriptionLabel" destination="kar-fC-wfM" id="Fje-zE-7nS"/>
+                                            <outlet property="helpTypeLabel" destination="UqG-2j-fAg" id="ouR-4f-w8O"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mr6-4x-VAd">
+                                <rect key="frame" x="20" y="19" width="374" height="128"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4599292" translatesAutoresizingMaskIntoConstraints="NO" id="fXq-x2-FTv">
+                                        <rect key="frame" x="111" y="0.0" width="152" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ავტო დახმარება 24/7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YT-YS-wMA">
+                                        <rect key="frame" x="88" y="73" width="198" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4D2-xZ-gST">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="26D-iG-UdF"/>
+                                            <constraint firstAttribute="width" constant="48" id="GEs-t6-9eR"/>
+                                        </constraints>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="didClickOnBack:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="nIe-93-T3l"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.35294117650000001" green="0.74117647060000003" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="4D2-xZ-gST" secondAttribute="trailing" constant="326" id="8em-IG-V3x"/>
+                                    <constraint firstAttribute="bottom" secondItem="4D2-xZ-gST" secondAttribute="bottom" constant="80" id="G4m-3q-n8r"/>
+                                    <constraint firstItem="4D2-xZ-gST" firstAttribute="leading" secondItem="mr6-4x-VAd" secondAttribute="leading" id="MiC-68-mMX"/>
+                                    <constraint firstItem="4D2-xZ-gST" firstAttribute="top" secondItem="mr6-4x-VAd" secondAttribute="top" id="b7Z-80-Xx9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstItem="Wtp-c6-BiV" firstAttribute="top" secondItem="mr6-4x-VAd" secondAttribute="bottom" constant="8" symbolic="YES" id="6Zu-rk-wWB"/>
+                            <constraint firstItem="mr6-4x-VAd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="BxC-Tk-5ef"/>
+                            <constraint firstItem="Wtp-c6-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="155" id="Fsa-wi-gTj"/>
+                            <constraint firstItem="Wtp-c6-BiV" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Nxv-Dr-CIE"/>
+                            <constraint firstItem="Wtp-c6-BiV" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="PuR-84-3s2"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mr6-4x-VAd" secondAttribute="trailing" constant="20" id="jUc-kA-3xm"/>
+                            <constraint firstItem="Wtp-c6-BiV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="mUn-sf-tnX"/>
+                            <constraint firstItem="mr6-4x-VAd" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="19" id="uSn-fe-ch8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HeaderView" destination="mr6-4x-VAd" id="ycc-jS-21T"/>
+                        <outlet property="autoHelpTableView" destination="Wtp-c6-BiV" id="BsQ-xY-d6a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="4599292" width="512" height="512"/>
+        <image name="back" width="128" height="128"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

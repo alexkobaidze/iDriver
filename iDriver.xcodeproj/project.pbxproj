@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE18548526A32646005499C7 /* AutoHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18548426A32646005499C7 /* AutoHelpViewController.swift */; };
+		EE18548926A32661005499C7 /* AutoHelpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE18548826A32661005499C7 /* AutoHelpViewController.storyboard */; };
+		EE18548B26A3268B005499C7 /* AutoHelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18548A26A3268B005499C7 /* AutoHelpCell.swift */; };
+		EE1A7EEC26A073AD000A438F /* GasStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A7EEB26A073AD000A438F /* GasStationViewController.swift */; };
+		EE1A7EEE26A073B7000A438F /* GasStationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1A7EED26A073B7000A438F /* GasStationViewController.storyboard */; };
+		EE3AA16C26755BE50070A473 /* AutoServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AA16B26755BE50070A473 /* AutoServiceCell.swift */; };
+		EE3AA1722675702F0070A473 /* ServiceCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3AA1712675702F0070A473 /* ServiceCenter.storyboard */; };
+		EE3AA1742675705E0070A473 /* ServiceCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AA1732675705E0070A473 /* ServiceCenterViewController.swift */; };
+		EE3AA1772675732C0070A473 /* ServiceCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AA1762675732C0070A473 /* ServiceCenterTableViewCell.swift */; };
+		EE3AA17A2675E5CC0070A473 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AA1792675E5CC0070A473 /* ServiceViewController.swift */; };
+		EE3AA17C2675E5DD0070A473 /* Service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3AA17B2675E5DD0070A473 /* Service.storyboard */; };
+		EE3E5BDC26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E5BDA26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.swift */; };
+		EE3E5BDD26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3E5BDB26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.xib */; };
+		EE41E5AD2677FA0700C8C222 /* AutoAssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E5AC2677FA0700C8C222 /* AutoAssistantViewController.swift */; };
+		EE41E5AF2677FA2100C8C222 /* AutoAssistant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41E5AE2677FA2100C8C222 /* AutoAssistant.storyboard */; };
+		EE41E5B12677FB5B00C8C222 /* AutoAssistantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E5B02677FB5B00C8C222 /* AutoAssistantCell.swift */; };
+		EE41E5B426780E1800C8C222 /* DavitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E5B326780E1800C8C222 /* DavitViewController.swift */; };
+		EE41E5B626780E2F00C8C222 /* Davit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41E5B526780E2F00C8C222 /* Davit.storyboard */; };
+		EE5338FE26A5A97E00574995 /* NewDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5338FD26A5A97E00574995 /* NewDriverViewController.swift */; };
+		EE53390026A5A99700574995 /* NewDriverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5338FF26A5A99700574995 /* NewDriverViewController.storyboard */; };
+		EE53390926A5AFB100574995 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53390726A5AFB100574995 /* BlogCell.swift */; };
+		EE53390A26A5AFB100574995 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE53390826A5AFB100574995 /* BlogCell.xib */; };
+		EE53390E26A5B18700574995 /* BlogItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53390C26A5B18700574995 /* BlogItemCell.swift */; };
+		EE53390F26A5B18700574995 /* BlogItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE53390D26A5B18700574995 /* BlogItemCell.xib */; };
+		EE53391226A5B52B00574995 /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53391126A5B52B00574995 /* Extension+UITableView.swift */; };
+		EE53391526A5C0CD00574995 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53391426A5C0CD00574995 /* Blog.swift */; };
+		EE53391726A5C22F00574995 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53391626A5C22F00574995 /* NewsResponse.swift */; };
+		EE53391926A5C27B00574995 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53391826A5C27B00574995 /* NetworkManager.swift */; };
+		EE53391B26A6139600574995 /* NewDriverDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53391A26A6139600574995 /* NewDriverDataSource.swift */; };
+		EE53391E26A6D50100574995 /* BlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53391D26A6D50100574995 /* BlogDetailViewController.swift */; };
+		EE53392026A6D52700574995 /* BlogDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE53391F26A6D52700574995 /* BlogDetailViewController.storyboard */; };
+		EE8263F5269EFFDC00150F36 /* CarWashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8263F4269EFFDC00150F36 /* CarWashTableViewCell.swift */; };
+		EE8263F7269F009600150F36 /* CarWashServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8263F6269F009600150F36 /* CarWashServiceViewController.swift */; };
+		EE8263FA269F00BA00150F36 /* CarWashServiceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8263F9269F00BA00150F36 /* CarWashServiceViewController.storyboard */; };
+		EE8263FC269F145600150F36 /* DetailCarWashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8263FB269F145600150F36 /* DetailCarWashViewController.storyboard */; };
+		EE8263FE269F146400150F36 /* DetailCarWashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8263FD269F146400150F36 /* DetailCarWashViewController.swift */; };
+		EE87D30826AB08E0000E5C73 /* CarFeaturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D30626AB08E0000E5C73 /* CarFeaturesTableViewCell.swift */; };
+		EE87D30926AB08E0000E5C73 /* CarFeaturesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE87D30726AB08E0000E5C73 /* CarFeaturesTableViewCell.xib */; };
+		EE87D31A26AC2B55000E5C73 /* CarPartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D31926AC2B55000E5C73 /* CarPartsViewController.swift */; };
+		EE87D31C26AC2B60000E5C73 /* CarPartsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87D31B26AC2B60000E5C73 /* CarPartsViewController.storyboard */; };
+		EE87D32626AC317D000E5C73 /* PartsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D32526AC317D000E5C73 /* PartsTableViewCell.swift */; };
+		EE87D32A26AC3998000E5C73 /* PartDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D32926AC3998000E5C73 /* PartDetailViewController.swift */; };
+		EE87D32C26AC39A2000E5C73 /* PartDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87D32B26AC39A2000E5C73 /* PartDetailViewController.storyboard */; };
+		EE87D32F26AC9F1E000E5C73 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87D32E26AC9F1E000E5C73 /* Part.swift */; };
+		EE87D33226ACA325000E5C73 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EE87D33126ACA325000E5C73 /* Kingfisher */; };
+		EEA8355E2691AC2A00073141 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8355D2691AC2A00073141 /* NavigationViewController.swift */; };
+		EEA835612691AC4600073141 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA835602691AC4600073141 /* Navigation.storyboard */; };
+		EEA835642691B0EE00073141 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA835632691B0ED00073141 /* MapKit.framework */; };
+		EEB3465126B18F6F00AD59B1 /* ReservScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3465026B18F6F00AD59B1 /* ReservScreenViewController.swift */; };
+		EEB3465326B18F7700AD59B1 /* ReservScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB3465226B18F7700AD59B1 /* ReservScreen.storyboard */; };
+		EEB3465626B1B79900AD59B1 /* ReservCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3465526B1B79900AD59B1 /* ReservCell.swift */; };
+		FA2465E72670C49A000AA02B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2465E62670C49A000AA02B /* HomeViewController.swift */; };
+		FA2465EA2670C4BA000AA02B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2465E92670C4B9000AA02B /* Home.storyboard */; };
+		FA4C3647266EC2EB003536AB /* 57097-car-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FA4C3646266EC2EA003536AB /* 57097-car-animation.json */; };
+		FA5D10C526729E3300579C6E /* AutoServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D10C426729E3300579C6E /* AutoServicesViewController.swift */; };
+		FA5D10C926729E4700579C6E /* AutoServices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5D10C826729E4700579C6E /* AutoServices.storyboard */; };
+		FA6FBA45266EB3C600F28A82 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FA6FBA44266EB3C600F28A82 /* Lottie */; };
+		FA817CD1266EA9DF0051C21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA817CD0266EA9DF0051C21E /* AppDelegate.swift */; };
+		FA817CD3266EA9DF0051C21E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA817CD2266EA9DF0051C21E /* SceneDelegate.swift */; };
+		FA817CD5266EA9DF0051C21E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA817CD4266EA9DF0051C21E /* ViewController.swift */; };
+		FA817CD8266EA9DF0051C21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA817CD6266EA9DF0051C21E /* Main.storyboard */; };
+		FA817CDA266EA9E20051C21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA817CD9266EA9E20051C21E /* Assets.xcassets */; };
+		FA817CDD266EA9E20051C21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA817CDB266EA9E20051C21E /* LaunchScreen.storyboard */; };
+		FA817CF4266EABD10051C21E /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA817CF3266EABD10051C21E /* UILabelExtensions.swift */; };
+		FA817CFF266EB1680051C21E /* LogInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA817CFE266EB1680051C21E /* LogInScreenViewController.swift */; };
+		FA817D04266EB18B0051C21E /* LogInScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA817D03266EB18B0051C21E /* LogInScreen.storyboard */; };
+		FACA04802670FBDE00EE2812 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA047F2670FBDE00EE2812 /* ProfileScreenViewController.swift */; };
+		FACA04842670FBF300EE2812 /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA04832670FBF300EE2812 /* ProfileScreen.storyboard */; };
+		FACA0495267109AC00EE2812 /* CustomTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA0494267109AC00EE2812 /* CustomTabbarVC.swift */; };
+		FACA049D2671118400EE2812 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA049C2671118400EE2812 /* TabBarVC.swift */; };
+		FAD6C49A266FF6D8000B062A /* RegistrationScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6C499266FF6D8000B062A /* RegistrationScreenViewController.swift */; };
+		FAD6C49D266FF6E8000B062A /* RegistrationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6C49C266FF6E8000B062A /* RegistrationScreen.storyboard */; };
+		FAD6C4A0266FFD06000B062A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD6C49F266FFD06000B062A /* GoogleService-Info.plist */; };
+		FAD6C4D126700170000B062A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6C4D026700170000B062A /* FirebaseAnalytics */; };
+		FAD6C4D326700170000B062A /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6C4D226700170000B062A /* FirebaseFirestoreSwift-Beta */; };
+		FAD6C4D526700170000B062A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6C4D426700170000B062A /* FirebaseAuth */; };
+		FAD6C4D726700170000B062A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6C4D626700170000B062A /* FirebaseFirestore */; };
+		FAD6C4D926700170000B062A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FAD6C4D826700170000B062A /* FirebaseDatabase */; };
+		FAD6C4F02670B56B000B062A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6C4EF2670B56B000B062A /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE18548426A32646005499C7 /* AutoHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHelpViewController.swift; sourceTree = "<group>"; };
+		EE18548826A32661005499C7 /* AutoHelpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutoHelpViewController.storyboard; sourceTree = "<group>"; };
+		EE18548A26A3268B005499C7 /* AutoHelpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHelpCell.swift; sourceTree = "<group>"; };
+		EE1A7EEB26A073AD000A438F /* GasStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationViewController.swift; sourceTree = "<group>"; };
+		EE1A7EED26A073B7000A438F /* GasStationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GasStationViewController.storyboard; sourceTree = "<group>"; };
+		EE3AA16B26755BE50070A473 /* AutoServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoServiceCell.swift; sourceTree = "<group>"; };
+		EE3AA1712675702F0070A473 /* ServiceCenter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ServiceCenter.storyboard; sourceTree = "<group>"; };
+		EE3AA1732675705E0070A473 /* ServiceCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCenterViewController.swift; sourceTree = "<group>"; };
+		EE3AA1762675732C0070A473 /* ServiceCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCenterTableViewCell.swift; sourceTree = "<group>"; };
+		EE3AA1792675E5CC0070A473 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		EE3AA17B2675E5DD0070A473 /* Service.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Service.storyboard; sourceTree = "<group>"; };
+		EE3E5BDA26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyDriverCellTableViewCell.swift; sourceTree = "<group>"; };
+		EE3E5BDB26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudyDriverCellTableViewCell.xib; sourceTree = "<group>"; };
+		EE41E5AC2677FA0700C8C222 /* AutoAssistantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoAssistantViewController.swift; sourceTree = "<group>"; };
+		EE41E5AE2677FA2100C8C222 /* AutoAssistant.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutoAssistant.storyboard; sourceTree = "<group>"; };
+		EE41E5B02677FB5B00C8C222 /* AutoAssistantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoAssistantCell.swift; sourceTree = "<group>"; };
+		EE41E5B326780E1800C8C222 /* DavitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DavitViewController.swift; sourceTree = "<group>"; };
+		EE41E5B526780E2F00C8C222 /* Davit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Davit.storyboard; sourceTree = "<group>"; };
+		EE5338FD26A5A97E00574995 /* NewDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDriverViewController.swift; sourceTree = "<group>"; };
+		EE5338FF26A5A99700574995 /* NewDriverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewDriverViewController.storyboard; sourceTree = "<group>"; };
+		EE53390726A5AFB100574995 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		EE53390826A5AFB100574995 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
+		EE53390C26A5B18700574995 /* BlogItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogItemCell.swift; sourceTree = "<group>"; };
+		EE53390D26A5B18700574995 /* BlogItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogItemCell.xib; sourceTree = "<group>"; };
+		EE53391126A5B52B00574995 /* Extension+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UITableView.swift"; sourceTree = "<group>"; };
+		EE53391426A5C0CD00574995 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		EE53391626A5C22F00574995 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		EE53391826A5C27B00574995 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EE53391A26A6139600574995 /* NewDriverDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDriverDataSource.swift; sourceTree = "<group>"; };
+		EE53391D26A6D50100574995 /* BlogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailViewController.swift; sourceTree = "<group>"; };
+		EE53391F26A6D52700574995 /* BlogDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BlogDetailViewController.storyboard; sourceTree = "<group>"; };
+		EE8263F4269EFFDC00150F36 /* CarWashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashTableViewCell.swift; sourceTree = "<group>"; };
+		EE8263F6269F009600150F36 /* CarWashServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashServiceViewController.swift; sourceTree = "<group>"; };
+		EE8263F9269F00BA00150F36 /* CarWashServiceViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarWashServiceViewController.storyboard; sourceTree = "<group>"; };
+		EE8263FB269F145600150F36 /* DetailCarWashViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailCarWashViewController.storyboard; sourceTree = "<group>"; };
+		EE8263FD269F146400150F36 /* DetailCarWashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarWashViewController.swift; sourceTree = "<group>"; };
+		EE87D30626AB08E0000E5C73 /* CarFeaturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFeaturesTableViewCell.swift; sourceTree = "<group>"; };
+		EE87D30726AB08E0000E5C73 /* CarFeaturesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarFeaturesTableViewCell.xib; sourceTree = "<group>"; };
+		EE87D31926AC2B55000E5C73 /* CarPartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPartsViewController.swift; sourceTree = "<group>"; };
+		EE87D31B26AC2B60000E5C73 /* CarPartsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarPartsViewController.storyboard; sourceTree = "<group>"; };
+		EE87D32526AC317D000E5C73 /* PartsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsTableViewCell.swift; sourceTree = "<group>"; };
+		EE87D32926AC3998000E5C73 /* PartDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartDetailViewController.swift; sourceTree = "<group>"; };
+		EE87D32B26AC39A2000E5C73 /* PartDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PartDetailViewController.storyboard; sourceTree = "<group>"; };
+		EE87D32E26AC9F1E000E5C73 /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
+		EEA8355D2691AC2A00073141 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		EEA835602691AC4600073141 /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		EEA835632691B0ED00073141 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EEB3465026B18F6F00AD59B1 /* ReservScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservScreenViewController.swift; sourceTree = "<group>"; };
+		EEB3465226B18F7700AD59B1 /* ReservScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReservScreen.storyboard; sourceTree = "<group>"; };
+		EEB3465526B1B79900AD59B1 /* ReservCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservCell.swift; sourceTree = "<group>"; };
+		FA2465E62670C49A000AA02B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA2465E92670C4B9000AA02B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FA4C3646266EC2EA003536AB /* 57097-car-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "57097-car-animation.json"; sourceTree = "<group>"; };
+		FA5D10C426729E3300579C6E /* AutoServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoServicesViewController.swift; sourceTree = "<group>"; };
+		FA5D10C826729E4700579C6E /* AutoServices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutoServices.storyboard; sourceTree = "<group>"; };
+		FA817CCD266EA9DF0051C21E /* iDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA817CD0266EA9DF0051C21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA817CD2266EA9DF0051C21E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA817CD4266EA9DF0051C21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA817CD7266EA9DF0051C21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA817CD9266EA9E20051C21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA817CDC266EA9E20051C21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA817CDE266EA9E20051C21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA817CF3266EABD10051C21E /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		FA817CFE266EB1680051C21E /* LogInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenViewController.swift; sourceTree = "<group>"; };
+		FA817D03266EB18B0051C21E /* LogInScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInScreen.storyboard; sourceTree = "<group>"; };
+		FACA047F2670FBDE00EE2812 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		FACA04832670FBF300EE2812 /* ProfileScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreen.storyboard; sourceTree = "<group>"; };
+		FACA0494267109AC00EE2812 /* CustomTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarVC.swift; sourceTree = "<group>"; };
+		FACA049C2671118400EE2812 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		FAD6C499266FF6D8000B062A /* RegistrationScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreenViewController.swift; sourceTree = "<group>"; };
+		FAD6C49C266FF6E8000B062A /* RegistrationScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationScreen.storyboard; sourceTree = "<group>"; };
+		FAD6C49F266FFD06000B062A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAD6C4EF2670B56B000B062A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA817CCA266EA9DF0051C21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD6C4D926700170000B062A /* FirebaseDatabase in Frameworks */,
+				FAD6C4D326700170000B062A /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				FAD6C4D126700170000B062A /* FirebaseAnalytics in Frameworks */,
+				FA6FBA45266EB3C600F28A82 /* Lottie in Frameworks */,
+				EE87D33226ACA325000E5C73 /* Kingfisher in Frameworks */,
+				EEA835642691B0EE00073141 /* MapKit.framework in Frameworks */,
+				FAD6C4D726700170000B062A /* FirebaseFirestore in Frameworks */,
+				FAD6C4D526700170000B062A /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE18548226A301A2005499C7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CEE266EAAC90051C21E /* Home Screen */,
+				FA817CED266EAABA0051C21E /* Registration Screen */,
+				FA817CFC266EAE970051C21E /* LogIn Screen */,
+				FA817CE5266EA9EB0051C21E /* Launch Screen */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE18548326A3262E005499C7 /* AutoHelp */ = {
+			isa = PBXGroup;
+			children = (
+				EE18548C26A3269C005499C7 /* AutoHelpCell */,
+				EE18548426A32646005499C7 /* AutoHelpViewController.swift */,
+				EE18548826A32661005499C7 /* AutoHelpViewController.storyboard */,
+			);
+			path = AutoHelp;
+			sourceTree = "<group>";
+		};
+		EE18548C26A3269C005499C7 /* AutoHelpCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE18548A26A3268B005499C7 /* AutoHelpCell.swift */,
+			);
+			path = AutoHelpCell;
+			sourceTree = "<group>";
+		};
+		EE1A7EEA26A07383000A438F /* GasStation */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A7EEB26A073AD000A438F /* GasStationViewController.swift */,
+				EE1A7EED26A073B7000A438F /* GasStationViewController.storyboard */,
+			);
+			path = GasStation;
+			sourceTree = "<group>";
+		};
+		EE3AA16D267560A60070A473 /* AutoServiceCellMain */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AA16B26755BE50070A473 /* AutoServiceCell.swift */,
+			);
+			path = AutoServiceCellMain;
+			sourceTree = "<group>";
+		};
+		EE3AA16E26756FDD0070A473 /* ServiceCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AA175267573000070A473 /* ServiceCenterCell */,
+				EE3AA1782675E5760070A473 /* DetailServiceCenter */,
+				EE3AA1712675702F0070A473 /* ServiceCenter.storyboard */,
+				EE3AA1732675705E0070A473 /* ServiceCenterViewController.swift */,
+			);
+			path = ServiceCenter;
+			sourceTree = "<group>";
+		};
+		EE3AA175267573000070A473 /* ServiceCenterCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AA1762675732C0070A473 /* ServiceCenterTableViewCell.swift */,
+			);
+			path = ServiceCenterCell;
+			sourceTree = "<group>";
+		};
+		EE3AA1782675E5760070A473 /* DetailServiceCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AA1792675E5CC0070A473 /* ServiceViewController.swift */,
+				EE3AA17B2675E5DD0070A473 /* Service.storyboard */,
+			);
+			path = DetailServiceCenter;
+			sourceTree = "<group>";
+		};
+		EE3E5BD926A9CDEE00E3B2FE /* StudyDriverCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E5BDA26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.swift */,
+				EE3E5BDB26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.xib */,
+			);
+			path = StudyDriverCell;
+			sourceTree = "<group>";
+		};
+		EE41E5A72677F85000C8C222 /* AutoAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				EE41E5B02677FB5B00C8C222 /* AutoAssistantCell.swift */,
+				EE41E5AC2677FA0700C8C222 /* AutoAssistantViewController.swift */,
+				EE41E5AE2677FA2100C8C222 /* AutoAssistant.storyboard */,
+				EE41E5B226780DFB00C8C222 /* davit */,
+			);
+			path = AutoAssistant;
+			sourceTree = "<group>";
+		};
+		EE41E5B226780DFB00C8C222 /* davit */ = {
+			isa = PBXGroup;
+			children = (
+				EE41E5B326780E1800C8C222 /* DavitViewController.swift */,
+				EE41E5B526780E2F00C8C222 /* Davit.storyboard */,
+			);
+			path = davit;
+			sourceTree = "<group>";
+		};
+		EE5338FC26A5A95800574995 /* NewDriver */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D30526AB0899000E5C73 /* CarFeatures */,
+				EE3E5BD926A9CDEE00E3B2FE /* StudyDriverCell */,
+				EE53390626A5AF8200574995 /* BlogCell */,
+				EE53390126A5AE4900574995 /* View Model */,
+				EE5338FD26A5A97E00574995 /* NewDriverViewController.swift */,
+				EE5338FF26A5A99700574995 /* NewDriverViewController.storyboard */,
+			);
+			path = NewDriver;
+			sourceTree = "<group>";
+		};
+		EE53390126A5AE4900574995 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE53391A26A6139600574995 /* NewDriverDataSource.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		EE53390626A5AF8200574995 /* BlogCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE53391C26A6D4DC00574995 /* BlogDetail */,
+				EE53390B26A5B14400574995 /* BlogItemCell */,
+				EE53390726A5AFB100574995 /* BlogCell.swift */,
+				EE53390826A5AFB100574995 /* BlogCell.xib */,
+			);
+			path = BlogCell;
+			sourceTree = "<group>";
+		};
+		EE53390B26A5B14400574995 /* BlogItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE53390C26A5B18700574995 /* BlogItemCell.swift */,
+				EE53390D26A5B18700574995 /* BlogItemCell.xib */,
+			);
+			path = BlogItemCell;
+			sourceTree = "<group>";
+		};
+		EE53391026A5B51D00574995 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE53391126A5B52B00574995 /* Extension+UITableView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		EE53391326A5C0B400574995 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D32D26AC9F06000E5C73 /* Parts */,
+				EE87D31D26AC2B71000E5C73 /* Blog */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EE53391C26A6D4DC00574995 /* BlogDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EE53391D26A6D50100574995 /* BlogDetailViewController.swift */,
+				EE53391F26A6D52700574995 /* BlogDetailViewController.storyboard */,
+			);
+			path = BlogDetail;
+			sourceTree = "<group>";
+		};
+		EE80EC9B2699EA4500937DC0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA2465E62670C49A000AA02B /* HomeViewController.swift */,
+				FA2465E92670C4B9000AA02B /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE8263EE269EFED600150F36 /* CarWashService */ = {
+			isa = PBXGroup;
+			children = (
+				EE8263EF269EFF1900150F36 /* CarWashServiceCell */,
+				EE8263F2269EFF4300150F36 /* carWashServiceCenters */,
+			);
+			path = CarWashService;
+			sourceTree = "<group>";
+		};
+		EE8263EF269EFF1900150F36 /* CarWashServiceCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE8263F4269EFFDC00150F36 /* CarWashTableViewCell.swift */,
+			);
+			path = CarWashServiceCell;
+			sourceTree = "<group>";
+		};
+		EE8263F2269EFF4300150F36 /* carWashServiceCenters */ = {
+			isa = PBXGroup;
+			children = (
+				EE8263F6269F009600150F36 /* CarWashServiceViewController.swift */,
+				EE8263F9269F00BA00150F36 /* CarWashServiceViewController.storyboard */,
+				EE8263F3269EFF5500150F36 /* DetailCarWashCenter */,
+			);
+			path = carWashServiceCenters;
+			sourceTree = "<group>";
+		};
+		EE8263F3269EFF5500150F36 /* DetailCarWashCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE8263FB269F145600150F36 /* DetailCarWashViewController.storyboard */,
+				EE8263FD269F146400150F36 /* DetailCarWashViewController.swift */,
+			);
+			path = DetailCarWashCenter;
+			sourceTree = "<group>";
+		};
+		EE87D30526AB0899000E5C73 /* CarFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D30626AB08E0000E5C73 /* CarFeaturesTableViewCell.swift */,
+				EE87D30726AB08E0000E5C73 /* CarFeaturesTableViewCell.xib */,
+			);
+			path = CarFeatures;
+			sourceTree = "<group>";
+		};
+		EE87D31726AB2623000E5C73 /* CarParts */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D31826AC2B32000E5C73 /* CarPartsViewController */,
+			);
+			path = CarParts;
+			sourceTree = "<group>";
+		};
+		EE87D31826AC2B32000E5C73 /* CarPartsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D32726AC3183000E5C73 /* PartsTableViewCell */,
+				EE87D31926AC2B55000E5C73 /* CarPartsViewController.swift */,
+				EE87D31B26AC2B60000E5C73 /* CarPartsViewController.storyboard */,
+				EE87D32826AC3975000E5C73 /* PartDetail */,
+			);
+			path = CarPartsViewController;
+			sourceTree = "<group>";
+		};
+		EE87D31D26AC2B71000E5C73 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				EE53391426A5C0CD00574995 /* Blog.swift */,
+				EE53391626A5C22F00574995 /* NewsResponse.swift */,
+				EE53391826A5C27B00574995 /* NetworkManager.swift */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		EE87D32726AC3183000E5C73 /* PartsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D32526AC317D000E5C73 /* PartsTableViewCell.swift */,
+			);
+			path = PartsTableViewCell;
+			sourceTree = "<group>";
+		};
+		EE87D32826AC3975000E5C73 /* PartDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D32926AC3998000E5C73 /* PartDetailViewController.swift */,
+				EE87D32B26AC39A2000E5C73 /* PartDetailViewController.storyboard */,
+			);
+			path = PartDetail;
+			sourceTree = "<group>";
+		};
+		EE87D32D26AC9F06000E5C73 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D32E26AC9F1E000E5C73 /* Part.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		EEA834E826874DB200073141 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		EEA8355C2691ABFB00073141 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EEA8355D2691AC2A00073141 /* NavigationViewController.swift */,
+				EEA835602691AC4600073141 /* Navigation.storyboard */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EEA835622691B0ED00073141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEA835632691B0ED00073141 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB3464F26B18F3800AD59B1 /* Reserv */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3465426B1B78000AD59B1 /* reservCell */,
+				EEB3465026B18F6F00AD59B1 /* ReservScreenViewController.swift */,
+				EEB3465226B18F7700AD59B1 /* ReservScreen.storyboard */,
+			);
+			path = Reserv;
+			sourceTree = "<group>";
+		};
+		EEB3465426B1B78000AD59B1 /* reservCell */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3465526B1B79900AD59B1 /* ReservCell.swift */,
+			);
+			path = reservCell;
+			sourceTree = "<group>";
+		};
+		EEB3465726B2127D00AD59B1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CD2266EA9DF0051C21E /* SceneDelegate.swift */,
+				FA817CD0266EA9DF0051C21E /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA5D10C326729DEB00579C6E /* AutoService */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AA16D267560A60070A473 /* AutoServiceCellMain */,
+				FA5D10C426729E3300579C6E /* AutoServicesViewController.swift */,
+				FA5D10C826729E4700579C6E /* AutoServices.storyboard */,
+				EE3AA16E26756FDD0070A473 /* ServiceCenter */,
+				EE1A7EEA26A07383000A438F /* GasStation */,
+				EE8263EE269EFED600150F36 /* CarWashService */,
+			);
+			path = AutoService;
+			sourceTree = "<group>";
+		};
+		FA817CC4266EA9DF0051C21E = {
+			isa = PBXGroup;
+			children = (
+				FA817CCF266EA9DF0051C21E /* iDriver */,
+				FA817CCE266EA9DF0051C21E /* Products */,
+				EEA835622691B0ED00073141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA817CCE266EA9DF0051C21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CCD266EA9DF0051C21E /* iDriver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA817CCF266EA9DF0051C21E /* iDriver */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3465726B2127D00AD59B1 /* App */,
+				FA817CEB266EAA750051C21E /* Presentation */,
+				EE53391326A5C0B400574995 /* API */,
+				FA817CF0266EAB940051C21E /* Components */,
+				FA817CE7266EAA090051C21E /* Resources */,
+				FA817CEA266EAA610051C21E /* Supporting files */,
+			);
+			path = iDriver;
+			sourceTree = "<group>";
+		};
+		FA817CE5266EA9EB0051C21E /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CEF266EAB5B0051C21E /* Animation Json */,
+				FA817CD4266EA9DF0051C21E /* ViewController.swift */,
+				FA817CD6266EA9DF0051C21E /* Main.storyboard */,
+				FA817CDB266EA9E20051C21E /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		FA817CE7266EAA090051C21E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEA834E826874DB200073141 /* Sound */,
+				FAF9C1C5266EB5B900C80DF9 /* JSON */,
+				FA817CE8266EAA140051C21E /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA817CE8266EAA140051C21E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CD9266EA9E20051C21E /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA817CEA266EAA610051C21E /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EE53391026A5B51D00574995 /* extensions */,
+				FAD6C49F266FFD06000B062A /* GoogleService-Info.plist */,
+				FA817CDE266EA9E20051C21E /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		FA817CEB266EAA750051C21E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EE18548226A301A2005499C7 /* Scene */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FA817CED266EAABA0051C21E /* Registration Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6C499266FF6D8000B062A /* RegistrationScreenViewController.swift */,
+				FAD6C49C266FF6E8000B062A /* RegistrationScreen.storyboard */,
+			);
+			path = "Registration Screen";
+			sourceTree = "<group>";
+		};
+		FA817CEE266EAAC90051C21E /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EE87D31726AB2623000E5C73 /* CarParts */,
+				EE5338FC26A5A95800574995 /* NewDriver */,
+				EE18548326A3262E005499C7 /* AutoHelp */,
+				EE80EC9B2699EA4500937DC0 /* Home */,
+				EEA8355C2691ABFB00073141 /* Navigation */,
+				EE41E5A72677F85000C8C222 /* AutoAssistant */,
+				FA5D10C326729DEB00579C6E /* AutoService */,
+				FACA048A2670FDAE00EE2812 /* TabBar */,
+				FACA047E2670FBC600EE2812 /* Profile Screen */,
+				EEB3464F26B18F3800AD59B1 /* Reserv */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		FA817CEF266EAB5B0051C21E /* Animation Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Animation Json";
+			sourceTree = "<group>";
+		};
+		FA817CF0266EAB940051C21E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CF1266EAB9E0051C21E /* Extenssions */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA817CF1266EAB9E0051C21E /* Extenssions */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CF2266EABA50051C21E /* UILabel+Extenssion */,
+				FAD6C4EF2670B56B000B062A /* Utilities.swift */,
+			);
+			path = Extenssions;
+			sourceTree = "<group>";
+		};
+		FA817CF2266EABA50051C21E /* UILabel+Extenssion */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CF3266EABD10051C21E /* UILabelExtensions.swift */,
+			);
+			path = "UILabel+Extenssion";
+			sourceTree = "<group>";
+		};
+		FA817CFC266EAE970051C21E /* LogIn Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA817CFE266EB1680051C21E /* LogInScreenViewController.swift */,
+				FA817D03266EB18B0051C21E /* LogInScreen.storyboard */,
+			);
+			path = "LogIn Screen";
+			sourceTree = "<group>";
+		};
+		FACA047E2670FBC600EE2812 /* Profile Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FACA047F2670FBDE00EE2812 /* ProfileScreenViewController.swift */,
+				FACA04832670FBF300EE2812 /* ProfileScreen.storyboard */,
+			);
+			path = "Profile Screen";
+			sourceTree = "<group>";
+		};
+		FACA048A2670FDAE00EE2812 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FACA0494267109AC00EE2812 /* CustomTabbarVC.swift */,
+				FACA049C2671118400EE2812 /* TabBarVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FAF9C1C5266EB5B900C80DF9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C3646266EC2EA003536AB /* 57097-car-animation.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA817CCC266EA9DF0051C21E /* iDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA817CE1266EA9E20051C21E /* Build configuration list for PBXNativeTarget "iDriver" */;
+			buildPhases = (
+				FA817CC9266EA9DF0051C21E /* Sources */,
+				FA817CCA266EA9DF0051C21E /* Frameworks */,
+				FA817CCB266EA9DF0051C21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDriver;
+			packageProductDependencies = (
+				FA6FBA44266EB3C600F28A82 /* Lottie */,
+				FAD6C4D026700170000B062A /* FirebaseAnalytics */,
+				FAD6C4D226700170000B062A /* FirebaseFirestoreSwift-Beta */,
+				FAD6C4D426700170000B062A /* FirebaseAuth */,
+				FAD6C4D626700170000B062A /* FirebaseFirestore */,
+				FAD6C4D826700170000B062A /* FirebaseDatabase */,
+				EE87D33126ACA325000E5C73 /* Kingfisher */,
+			);
+			productName = iDriver;
+			productReference = FA817CCD266EA9DF0051C21E /* iDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA817CC5266EA9DF0051C21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA817CCC266EA9DF0051C21E = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = FA817CC8266EA9DF0051C21E /* Build configuration list for PBXProject "iDriver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA817CC4266EA9DF0051C21E;
+			packageReferences = (
+				FA6FBA43266EB3C600F28A82 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EE87D33026ACA325000E5C73 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = FA817CCE266EA9DF0051C21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA817CCC266EA9DF0051C21E /* iDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA817CCB266EA9DF0051C21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41E5AF2677FA2100C8C222 /* AutoAssistant.storyboard in Resources */,
+				EE8263FC269F145600150F36 /* DetailCarWashViewController.storyboard in Resources */,
+				EE1A7EEE26A073B7000A438F /* GasStationViewController.storyboard in Resources */,
+				EE87D30926AB08E0000E5C73 /* CarFeaturesTableViewCell.xib in Resources */,
+				FAD6C49D266FF6E8000B062A /* RegistrationScreen.storyboard in Resources */,
+				EE3AA17C2675E5DD0070A473 /* Service.storyboard in Resources */,
+				FA5D10C926729E4700579C6E /* AutoServices.storyboard in Resources */,
+				EE53392026A6D52700574995 /* BlogDetailViewController.storyboard in Resources */,
+				FAD6C4A0266FFD06000B062A /* GoogleService-Info.plist in Resources */,
+				EE8263FA269F00BA00150F36 /* CarWashServiceViewController.storyboard in Resources */,
+				EE41E5B626780E2F00C8C222 /* Davit.storyboard in Resources */,
+				FA817CDD266EA9E20051C21E /* LaunchScreen.storyboard in Resources */,
+				FA817CDA266EA9E20051C21E /* Assets.xcassets in Resources */,
+				EEB3465326B18F7700AD59B1 /* ReservScreen.storyboard in Resources */,
+				EE87D31C26AC2B60000E5C73 /* CarPartsViewController.storyboard in Resources */,
+				EE53390F26A5B18700574995 /* BlogItemCell.xib in Resources */,
+				EE53390026A5A99700574995 /* NewDriverViewController.storyboard in Resources */,
+				EEA835612691AC4600073141 /* Navigation.storyboard in Resources */,
+				EE3AA1722675702F0070A473 /* ServiceCenter.storyboard in Resources */,
+				FA4C3647266EC2EB003536AB /* 57097-car-animation.json in Resources */,
+				FA817D04266EB18B0051C21E /* LogInScreen.storyboard in Resources */,
+				FA817CD8266EA9DF0051C21E /* Main.storyboard in Resources */,
+				EE3E5BDD26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.xib in Resources */,
+				EE87D32C26AC39A2000E5C73 /* PartDetailViewController.storyboard in Resources */,
+				FACA04842670FBF300EE2812 /* ProfileScreen.storyboard in Resources */,
+				EE18548926A32661005499C7 /* AutoHelpViewController.storyboard in Resources */,
+				FA2465EA2670C4BA000AA02B /* Home.storyboard in Resources */,
+				EE53390A26A5AFB100574995 /* BlogCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA817CC9266EA9DF0051C21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB3465626B1B79900AD59B1 /* ReservCell.swift in Sources */,
+				EE3AA1772675732C0070A473 /* ServiceCenterTableViewCell.swift in Sources */,
+				EE3AA16C26755BE50070A473 /* AutoServiceCell.swift in Sources */,
+				EE3AA17A2675E5CC0070A473 /* ServiceViewController.swift in Sources */,
+				EE87D32A26AC3998000E5C73 /* PartDetailViewController.swift in Sources */,
+				EE41E5B426780E1800C8C222 /* DavitViewController.swift in Sources */,
+				FAD6C49A266FF6D8000B062A /* RegistrationScreenViewController.swift in Sources */,
+				EE8263FE269F146400150F36 /* DetailCarWashViewController.swift in Sources */,
+				EE8263F5269EFFDC00150F36 /* CarWashTableViewCell.swift in Sources */,
+				EE53391E26A6D50100574995 /* BlogDetailViewController.swift in Sources */,
+				EE87D31A26AC2B55000E5C73 /* CarPartsViewController.swift in Sources */,
+				EEB3465126B18F6F00AD59B1 /* ReservScreenViewController.swift in Sources */,
+				EE53391526A5C0CD00574995 /* Blog.swift in Sources */,
+				FA817CF4266EABD10051C21E /* UILabelExtensions.swift in Sources */,
+				EE3AA1742675705E0070A473 /* ServiceCenterViewController.swift in Sources */,
+				FA817CD5266EA9DF0051C21E /* ViewController.swift in Sources */,
+				EE87D30826AB08E0000E5C73 /* CarFeaturesTableViewCell.swift in Sources */,
+				FA2465E72670C49A000AA02B /* HomeViewController.swift in Sources */,
+				EE53391B26A6139600574995 /* NewDriverDataSource.swift in Sources */,
+				FA817CD1266EA9DF0051C21E /* AppDelegate.swift in Sources */,
+				EE5338FE26A5A97E00574995 /* NewDriverViewController.swift in Sources */,
+				EE8263F7269F009600150F36 /* CarWashServiceViewController.swift in Sources */,
+				EE53391926A5C27B00574995 /* NetworkManager.swift in Sources */,
+				EE87D32F26AC9F1E000E5C73 /* Part.swift in Sources */,
+				FA5D10C526729E3300579C6E /* AutoServicesViewController.swift in Sources */,
+				EE53391726A5C22F00574995 /* NewsResponse.swift in Sources */,
+				EEA8355E2691AC2A00073141 /* NavigationViewController.swift in Sources */,
+				EE87D32626AC317D000E5C73 /* PartsTableViewCell.swift in Sources */,
+				EE18548526A32646005499C7 /* AutoHelpViewController.swift in Sources */,
+				EE41E5B12677FB5B00C8C222 /* AutoAssistantCell.swift in Sources */,
+				FA817CD3266EA9DF0051C21E /* SceneDelegate.swift in Sources */,
+				FACA0495267109AC00EE2812 /* CustomTabbarVC.swift in Sources */,
+				FA817CFF266EB1680051C21E /* LogInScreenViewController.swift in Sources */,
+				EE53390926A5AFB100574995 /* BlogCell.swift in Sources */,
+				EE53390E26A5B18700574995 /* BlogItemCell.swift in Sources */,
+				EE3E5BDC26A9CE3500E3B2FE /* StudyDriverCellTableViewCell.swift in Sources */,
+				FACA04802670FBDE00EE2812 /* ProfileScreenViewController.swift in Sources */,
+				FACA049D2671118400EE2812 /* TabBarVC.swift in Sources */,
+				EE41E5AD2677FA0700C8C222 /* AutoAssistantViewController.swift in Sources */,
+				FAD6C4F02670B56B000B062A /* Utilities.swift in Sources */,
+				EE18548B26A3268B005499C7 /* AutoHelpCell.swift in Sources */,
+				EE1A7EEC26A073AD000A438F /* GasStationViewController.swift in Sources */,
+				EE53391226A5B52B00574995 /* Extension+UITableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA817CD6266EA9DF0051C21E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA817CD7266EA9DF0051C21E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA817CDB266EA9E20051C21E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA817CDC266EA9E20051C21E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA817CDF266EA9E20051C21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA817CE0266EA9E20051C21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA817CE2266EA9E20051C21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				INFOPLIST_FILE = "$(SRCROOT)/iDriver/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.iDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA817CE3266EA9E20051C21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 263CT2AHC6;
+				INFOPLIST_FILE = "$(SRCROOT)/iDriver/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.iDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA817CC8266EA9DF0051C21E /* Build configuration list for PBXProject "iDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA817CDF266EA9E20051C21E /* Debug */,
+				FA817CE0266EA9E20051C21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA817CE1266EA9E20051C21E /* Build configuration list for PBXNativeTarget "iDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA817CE2266EA9E20051C21E /* Debug */,
+				FA817CE3266EA9E20051C21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE87D33026ACA325000E5C73 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+		FA6FBA43266EB3C600F28A82 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+		FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE87D33126ACA325000E5C73 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE87D33026ACA325000E5C73 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FA6FBA44266EB3C600F28A82 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA6FBA43266EB3C600F28A82 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		FAD6C4D026700170000B062A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FAD6C4D226700170000B062A /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		FAD6C4D426700170000B062A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FAD6C4D626700170000B062A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FAD6C4D826700170000B062A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD6C4CF26700170000B062A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA817CC5266EA9DF0051C21E /* Project object */;
+}

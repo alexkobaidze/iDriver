@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Davit View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DavitViewController" id="Y6W-OH-hqX" customClass="DavitViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Oqd-pB-3Ro">
+                                <rect key="frame" x="10" y="467" width="394" height="132"/>
+                                <color key="backgroundColor" red="0.71153248440000005" green="0.8546742141" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">ავტო ასისტენტი წაიყვანს ავტომობილს შესაბამის ხელოსანთან, მოძებნის ნაწილებს ელიავას, ისნის, ფეიქრებისა და სხვა ახალი თუ მეორადი ავტონაწილების მომწოდებლებთან. შემდეგ უკვე ყველანაირი ხარჯის შეთანხმება ხდება და თანხმობის შემთხვევაში მფლობელი მალევე იბრუნებს შეკეთებულ ავტომობილს
+დავითი უზრუნველყოფს ტექდათვალერებასაც. </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="Qbh-IH-aEd">
+                                <rect key="frame" x="20" y="216" width="374" height="227"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="სახელი:   დავითი" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCZ-ZJ-gQV">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="გვარი:   დავითაშვილი" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNq-VL-Z7v">
+                                        <rect key="frame" x="0.0" y="41.333333333333314" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="პოზიცია: ავტო-ასისტენტი" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8V-Iq-c0K">
+                                        <rect key="frame" x="0.0" y="82.666666666666686" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="კონტაქტი:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFn-c1-82C">
+                                        <rect key="frame" x="0.0" y="123.99999999999999" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ელ-ფოსტა: Davit@Autoassistant.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMR-eF-QML">
+                                        <rect key="frame" x="0.0" y="165.33333333333331" width="374" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ტელეფონის ნომერი: 577 77-77-77" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SES-b6-MBR">
+                                        <rect key="frame" x="0.0" y="206.66666666666669" width="374" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hi-zJ-6Li">
+                                <rect key="frame" x="67" y="632" width="280" height="84"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="ავტო ასისტენტის გამოძახება"/>
+                                <connections>
+                                    <action selector="callDavit:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="hhg-g9-OSB"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsI-5d-GQp">
+                                <rect key="frame" x="20" y="0.0" width="374" height="199"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daviti" translatesAutoresizingMaskIntoConstraints="NO" id="xjp-mZ-WoZ">
+                                        <rect key="frame" x="66" y="24" width="242" height="167"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="167" id="k1f-7R-oeG"/>
+                                            <constraint firstAttribute="width" constant="242" id="rqO-vO-xQj"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iob-SB-2kf">
+                                        <rect key="frame" x="0.0" y="8" width="48" height="48"/>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="didClickOnBack:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="13p-xB-9Wd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="TabBarColorDark"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="xjp-mZ-WoZ" secondAttribute="bottom" constant="8" id="Bru-Ux-wKz"/>
+                                    <constraint firstAttribute="bottom" secondItem="Iob-SB-2kf" secondAttribute="bottom" constant="143" id="Fwv-Mm-010"/>
+                                    <constraint firstItem="xjp-mZ-WoZ" firstAttribute="leading" secondItem="fsI-5d-GQp" secondAttribute="leading" constant="66" id="JCy-kV-DSy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Iob-SB-2kf" secondAttribute="trailing" constant="326" id="UgE-yE-Aig"/>
+                                    <constraint firstItem="Iob-SB-2kf" firstAttribute="leading" secondItem="fsI-5d-GQp" secondAttribute="leading" id="drf-UM-C6J"/>
+                                    <constraint firstAttribute="trailing" secondItem="xjp-mZ-WoZ" secondAttribute="trailing" constant="66" id="fjV-Jk-grA"/>
+                                    <constraint firstItem="Iob-SB-2kf" firstAttribute="top" secondItem="fsI-5d-GQp" secondAttribute="top" constant="8" id="vxI-fa-fLE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Oqd-pB-3Ro" secondAttribute="trailing" constant="10" id="49A-iz-DOa"/>
+                            <constraint firstAttribute="bottom" secondItem="Oqd-pB-3Ro" secondAttribute="bottom" constant="137" id="5z1-7h-3jc"/>
+                            <constraint firstItem="Oqd-pB-3Ro" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="10" id="7DX-Mi-7aJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Hi-zJ-6Li" secondAttribute="trailing" constant="47" id="7QT-u0-Xd6"/>
+                            <constraint firstItem="9Hi-zJ-6Li" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" constant="47" id="8oH-yx-cvu"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fsI-5d-GQp" secondAttribute="bottom" constant="537" id="ATj-sP-3nR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Qbh-IH-aEd" secondAttribute="trailing" constant="20" id="CLd-TH-Sw5"/>
+                            <constraint firstItem="fsI-5d-GQp" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailingMargin" id="CrG-Zv-oB1"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Qbh-IH-aEd" secondAttribute="bottom" constant="293" id="G4t-2s-cQA"/>
+                            <constraint firstItem="fsI-5d-GQp" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="S0b-Ox-DnM"/>
+                            <constraint firstItem="fsI-5d-GQp" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" id="ZXG-F3-voL"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="9Hi-zJ-6Li" secondAttribute="bottom" constant="20" id="hgy-qq-uKu"/>
+                            <constraint firstItem="Oqd-pB-3Ro" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="467" id="m8Y-Bd-xYs"/>
+                            <constraint firstItem="9Hi-zJ-6Li" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="632" id="oM6-ai-loQ"/>
+                            <constraint firstItem="Qbh-IH-aEd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="u8b-cl-wdG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="callDavit" destination="9Hi-zJ-6Li" id="Noj-fj-AIE"/>
+                        <outlet property="imageView" destination="xjp-mZ-WoZ" id="uUP-Al-5gs"/>
+                        <outlet property="mailLabel" destination="uMR-eF-QML" id="74V-fi-HLM"/>
+                        <outlet property="mobeileLabel" destination="SES-b6-MBR" id="YQo-7U-blu"/>
+                        <outlet property="nameLabel" destination="TCZ-ZJ-gQV" id="2N3-13-wpW"/>
+                        <outlet property="surnameLabel" destination="jNq-VL-Z7v" id="CYv-pX-19s"/>
+                        <outlet property="textView" destination="Oqd-pB-3Ro" id="hLb-wJ-rdF"/>
+                        <outlet property="topView" destination="fsI-5d-GQp" id="LI7-yC-jEz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="51.358695652173914"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="128" height="128"/>
+        <image name="daviti" width="750" height="498"/>
+        <namedColor name="TabBarColorDark">
+            <color red="0.38899999856948853" green="0.23800000548362732" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail Car Wash View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DetailCarWashViewController" id="Y6W-OH-hqX" customClass="DetailCarWashViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gb-To-ihZ">
+                                <rect key="frame" x="20" y="20" width="374" height="181"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carwahs" translatesAutoresizingMaskIntoConstraints="NO" id="cn0-BI-ijZ">
+                                        <rect key="frame" x="8" y="8" width="358" height="153"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="153" id="8i1-46-Lgu"/>
+                                            <constraint firstAttribute="width" constant="358" id="EKQ-EA-msV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoK-g7-z5P">
+                                        <rect key="frame" x="20" y="8" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="Z0E-s0-Rj7"/>
+                                            <constraint firstAttribute="width" constant="48" id="rsi-iA-nIT"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="back"/>
+                                        <connections>
+                                            <action selector="didTapOnBack:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fgY-fo-Aat"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="NoK-g7-z5P" firstAttribute="top" secondItem="7gb-To-ihZ" secondAttribute="top" constant="8" id="1tb-8E-MGz"/>
+                                    <constraint firstAttribute="width" constant="374" id="7au-1I-sxg"/>
+                                    <constraint firstItem="cn0-BI-ijZ" firstAttribute="leading" secondItem="7gb-To-ihZ" secondAttribute="leading" constant="8" id="90z-g7-Kdt"/>
+                                    <constraint firstAttribute="bottom" secondItem="cn0-BI-ijZ" secondAttribute="bottom" constant="20" symbolic="YES" id="HJ0-ff-Nad"/>
+                                    <constraint firstAttribute="trailing" secondItem="NoK-g7-z5P" secondAttribute="trailing" constant="306" id="Mfp-ze-FsI"/>
+                                    <constraint firstItem="cn0-BI-ijZ" firstAttribute="top" secondItem="7gb-To-ihZ" secondAttribute="top" constant="8" id="PfO-k2-JK7"/>
+                                    <constraint firstAttribute="height" constant="181" id="Tmf-Rg-dlY"/>
+                                    <constraint firstItem="NoK-g7-z5P" firstAttribute="leading" secondItem="7gb-To-ihZ" secondAttribute="leading" constant="20" id="VaT-o7-AD6"/>
+                                    <constraint firstAttribute="bottom" secondItem="NoK-g7-z5P" secondAttribute="bottom" constant="125" id="hwA-Yr-KBJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="cn0-BI-ijZ" secondAttribute="trailing" constant="8" id="pp5-v9-wZ8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ავტოსამრეცხაო “MR CAR WASH” კონვეირული სისტემის მეშვეობით გთავაზობთ უმაღლესი ხარისხის მომსახურეობას უმოკლეს დროში" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xe-ME-cEU">
+                                <rect key="frame" x="20" y="226" width="374" height="219"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1W-Zh-48u">
+                                <rect key="frame" x="48" y="519" width="318" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="1yr-1T-FHA"/>
+                                    <constraint firstAttribute="height" constant="122" id="aag-zz-JC4"/>
+                                </constraints>
+                                <string key="text">სამუშაო საათები: 
+ორშაბათი - პარასკევი: 09:30 - 18:30
+შაბათი: 09:30 - 18:30
+კვირა: არასამუშაო დღე
+TEL: +995 32 226 44 44  (ქოლ ცენტრი)
+TEL: +995 32 224 44 44  (სათაო ოფისი)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="TabBarColorDark"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7gb-To-ihZ" secondAttribute="trailing" constant="20" id="41M-Vg-hZ7"/>
+                            <constraint firstItem="u1W-Zh-48u" firstAttribute="top" secondItem="7xe-ME-cEU" secondAttribute="bottom" constant="74" id="6Jt-Uh-C4P"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7xe-ME-cEU" secondAttribute="trailing" constant="20" id="C4t-Bv-Kwj"/>
+                            <constraint firstItem="7gb-To-ihZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="FMO-mc-e9n"/>
+                            <constraint firstItem="7xe-ME-cEU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Gix-v4-w86"/>
+                            <constraint firstItem="u1W-Zh-48u" firstAttribute="top" secondItem="7xe-ME-cEU" secondAttribute="bottom" constant="74" id="LfH-T5-3s5"/>
+                            <constraint firstItem="7gb-To-ihZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="NHo-tK-f1h"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="u1W-Zh-48u" secondAttribute="trailing" constant="48" id="PEj-Sh-7K8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="u1W-Zh-48u" secondAttribute="bottom" constant="95" id="YuD-VW-0Ql"/>
+                            <constraint firstItem="u1W-Zh-48u" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="48" id="fPs-SU-q8p"/>
+                            <constraint firstItem="7xe-ME-cEU" firstAttribute="top" secondItem="7gb-To-ihZ" secondAttribute="bottom" constant="25" id="lmX-Tc-PdX"/>
+                            <constraint firstItem="7xe-ME-cEU" firstAttribute="top" secondItem="7gb-To-ihZ" secondAttribute="bottom" constant="25" id="tuM-wN-Sic"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carWashContactLabel" destination="u1W-Zh-48u" id="kQT-D4-yR4"/>
+                        <outlet property="carWashDetailImage" destination="cn0-BI-ijZ" id="BTh-Xk-tQb"/>
+                        <outlet property="carWashDetailView" destination="7gb-To-ihZ" id="M2o-FP-cJg"/>
+                        <outlet property="carWashDetaillabel" destination="7xe-ME-cEU" id="9oz-qB-2Gb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="47.282608695652179"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="128" height="128"/>
+        <image name="carwahs" width="621" height="310"/>
+        <namedColor name="TabBarColorDark">
+            <color red="0.38899999856948853" green="0.23800000548362732" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

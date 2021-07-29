@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ljd-Ma-3FE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FB4-Wn-dBK" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="7" y="248" width="400" height="400"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="3z6-g9-1ci"/>
+                                    <constraint firstAttribute="height" constant="400" id="ToZ-MC-rIJ"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iDriverlogo" translatesAutoresizingMaskIntoConstraints="NO" id="eyz-hb-9U0">
+                                <rect key="frame" x="7" y="88" width="400" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="7ts-M1-1wJ"/>
+                                    <constraint firstAttribute="width" constant="400" id="Dop-UB-BFt"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Everything  About The Car" translatesAutoresizingMaskIntoConstraints="NO" id="fgj-MT-soA">
+                                <rect key="frame" x="7" y="700" width="400" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="n81-18-Msa"/>
+                                    <constraint firstAttribute="height" constant="128" id="qem-T2-FO5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fgj-MT-soA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="35Y-b7-Hz3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fgj-MT-soA" secondAttribute="trailing" constant="7" id="36V-9z-BpK"/>
+                            <constraint firstItem="fgj-MT-soA" firstAttribute="top" secondItem="FB4-Wn-dBK" secondAttribute="bottom" constant="52" id="7a5-9K-ci7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eyz-hb-9U0" secondAttribute="trailing" constant="7" id="D9J-Wt-Ovi"/>
+                            <constraint firstItem="FB4-Wn-dBK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UB2-Kq-WJi"/>
+                            <constraint firstItem="eyz-hb-9U0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Vls-2F-06c"/>
+                            <constraint firstItem="FB4-Wn-dBK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aDW-02-wcM"/>
+                            <constraint firstItem="FB4-Wn-dBK" firstAttribute="top" secondItem="eyz-hb-9U0" secondAttribute="bottom" constant="32" id="g0N-ip-K3J"/>
+                            <constraint firstItem="eyz-hb-9U0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="kSZ-Tf-R5N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fgj-MT-soA" secondAttribute="bottom" constant="34" id="oo6-47-uyh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wrp-7c-TAL"/>
+                    <connections>
+                        <outlet property="animationView" destination="FB4-Wn-dBK" id="goG-Vx-aRz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="59.598214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="X6k-IV-aTi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ljd-Ma-3FE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lk6-se-Xmb">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DtB-0c-cZW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xW5-nc-p6Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="59.598214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Everything  About The Car" width="415" height="167"/>
+        <image name="iDriverlogo" width="415" height="167"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

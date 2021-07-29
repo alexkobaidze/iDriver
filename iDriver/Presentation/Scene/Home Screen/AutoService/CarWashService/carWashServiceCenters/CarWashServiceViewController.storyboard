@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Car Wash Service View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="CarWashServiceViewController" id="Y6W-OH-hqX" customClass="CarWashServiceViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="noU-fK-YbU">
+                                <rect key="frame" x="0.0" y="189" width="414" height="547"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="547" id="1bD-CS-Jrg"/>
+                                    <constraint firstAttribute="width" constant="414" id="6SF-WX-QoE"/>
+                                </constraints>
+                                <color key="sectionIndexColor" red="0.0" green="0.60325035680000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarWashTableViewCell" rowHeight="300" id="Ast-d5-hOI" customClass="CarWashTableViewCell" customModule="iDriver" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ast-d5-hOI" id="sA3-6D-pp3">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZq-In-idW" userLabel="carWashServiceView">
+                                                    <rect key="frame" x="11" y="16" width="392" height="268"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M2L-OQ-SyB">
+                                                            <rect key="frame" x="8" y="8" width="376" height="176"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="376" id="Q2h-5B-Cwt"/>
+                                                                <constraint firstAttribute="height" constant="176" id="nmP-YB-KMr"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqd-2C-HXv">
+                                                            <rect key="frame" x="8" y="192" width="376" height="68"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="376" id="9KC-0M-J56"/>
+                                                                <constraint firstAttribute="height" constant="68" id="kcS-7n-PZW"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                            <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.48157100269999997" green="0.83187293819999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="268" id="09S-7C-mLc"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Yqd-2C-HXv" secondAttribute="bottom" constant="8" id="6gQ-mv-A2Q"/>
+                                                        <constraint firstItem="M2L-OQ-SyB" firstAttribute="top" secondItem="yZq-In-idW" secondAttribute="top" constant="8" id="BSg-tM-GJa"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Yqd-2C-HXv" secondAttribute="trailing" constant="8" id="RBa-qk-Jep"/>
+                                                        <constraint firstAttribute="trailing" secondItem="M2L-OQ-SyB" secondAttribute="trailing" constant="8" id="apa-Dm-B72"/>
+                                                        <constraint firstItem="Yqd-2C-HXv" firstAttribute="leading" secondItem="yZq-In-idW" secondAttribute="leading" constant="8" id="bTx-rs-5uQ"/>
+                                                        <constraint firstItem="M2L-OQ-SyB" firstAttribute="leading" secondItem="yZq-In-idW" secondAttribute="leading" constant="8" id="c1S-9w-xtp"/>
+                                                        <constraint firstItem="Yqd-2C-HXv" firstAttribute="top" secondItem="M2L-OQ-SyB" secondAttribute="bottom" constant="8" symbolic="YES" id="iMc-QM-vf5"/>
+                                                        <constraint firstItem="Yqd-2C-HXv" firstAttribute="top" secondItem="M2L-OQ-SyB" secondAttribute="bottom" constant="8" symbolic="YES" id="uF5-z7-BAx"/>
+                                                        <constraint firstAttribute="width" constant="392" id="vmW-hT-IuL"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.60325035682091344" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="yZq-In-idW" firstAttribute="leading" secondItem="sA3-6D-pp3" secondAttribute="leading" constant="11" id="CYf-hv-EC1"/>
+                                                <constraint firstItem="yZq-In-idW" firstAttribute="top" secondItem="sA3-6D-pp3" secondAttribute="top" constant="16" id="kkj-ct-nXs"/>
+                                                <constraint firstAttribute="bottom" secondItem="yZq-In-idW" secondAttribute="bottom" constant="16" id="vYg-ED-6wK"/>
+                                                <constraint firstAttribute="trailing" secondItem="yZq-In-idW" secondAttribute="trailing" constant="11" id="y6T-h2-JDz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.48157100269999997" green="0.83187293819999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="carWashServiceName" destination="Yqd-2C-HXv" id="ZTp-Q6-4wh"/>
+                                            <outlet property="carWashServiceView" destination="yZq-In-idW" id="GUT-sa-W7F"/>
+                                            <outlet property="washServiceImage" destination="M2L-OQ-SyB" id="Ysp-bf-4pU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXW-Ro-776">
+                                <rect key="frame" x="20" y="6" width="374" height="155"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ავტო სამრეცხაო" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzl-tn-85B">
+                                        <rect key="frame" x="70" y="89" width="235" height="58"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="235" id="VYj-NI-jyf"/>
+                                            <constraint firstAttribute="height" constant="58" id="cmT-Ar-5yb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carWash" translatesAutoresizingMaskIntoConstraints="NO" id="8ry-9s-ugy">
+                                        <rect key="frame" x="70" y="23" width="246" height="58"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="58" id="brq-Ao-a8D"/>
+                                            <constraint firstAttribute="width" constant="246" id="qOA-Ai-3BL"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-ek-opg">
+                                        <rect key="frame" x="14" y="0.0" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="Nfa-6r-faj"/>
+                                            <constraint firstAttribute="width" constant="48" id="Wdb-0J-wec"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="back"/>
+                                        <connections>
+                                            <action selector="didTapOnBack:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zrD-JZ-H73"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="TabBarColor"/>
+                                <constraints>
+                                    <constraint firstItem="8ry-9s-ugy" firstAttribute="leading" secondItem="OXW-Ro-776" secondAttribute="leading" constant="70" id="4ad-oh-xuQ"/>
+                                    <constraint firstItem="Pzl-tn-85B" firstAttribute="top" secondItem="8ry-9s-ugy" secondAttribute="bottom" constant="8" symbolic="YES" id="907-h9-2Kg"/>
+                                    <constraint firstAttribute="trailing" secondItem="8ry-9s-ugy" secondAttribute="trailing" constant="58" id="Cnu-ty-mNs"/>
+                                    <constraint firstItem="8ry-9s-ugy" firstAttribute="top" secondItem="OXW-Ro-776" secondAttribute="top" constant="23" id="IGN-Ky-fAS"/>
+                                    <constraint firstAttribute="trailing" secondItem="gvc-ek-opg" secondAttribute="trailing" constant="312" id="OoA-0a-DX7"/>
+                                    <constraint firstItem="gvc-ek-opg" firstAttribute="top" secondItem="OXW-Ro-776" secondAttribute="top" id="WiR-o3-rpL"/>
+                                    <constraint firstAttribute="bottom" secondItem="gvc-ek-opg" secondAttribute="bottom" constant="107" id="Ws1-9I-kQ5"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pzl-tn-85B" secondAttribute="bottom" constant="8" id="jah-le-8lr"/>
+                                    <constraint firstItem="gvc-ek-opg" firstAttribute="leading" secondItem="OXW-Ro-776" secondAttribute="leading" constant="14" id="kTH-bN-RaM"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pzl-tn-85B" secondAttribute="trailing" constant="69" id="kuC-9m-5Nl"/>
+                                    <constraint firstItem="Pzl-tn-85B" firstAttribute="leading" secondItem="OXW-Ro-776" secondAttribute="leading" constant="70" id="yRT-NB-eiQ"/>
+                                    <constraint firstItem="Pzl-tn-85B" firstAttribute="top" secondItem="8ry-9s-ugy" secondAttribute="bottom" constant="8" symbolic="YES" id="ynM-o6-5Dd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.0" green="0.60325035680000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="noU-fK-YbU" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="1TB-ru-5GI"/>
+                            <constraint firstItem="noU-fK-YbU" firstAttribute="top" secondItem="OXW-Ro-776" secondAttribute="bottom" constant="28" id="AeI-uF-hY5"/>
+                            <constraint firstItem="OXW-Ro-776" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="KAB-z1-HIh"/>
+                            <constraint firstItem="OXW-Ro-776" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="6" id="YNn-fH-FdS"/>
+                            <constraint firstItem="noU-fK-YbU" firstAttribute="top" secondItem="OXW-Ro-776" secondAttribute="bottom" constant="28" id="aXw-PR-30s"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="OXW-Ro-776" secondAttribute="trailing" constant="20" id="b2C-CS-l25"/>
+                            <constraint firstItem="noU-fK-YbU" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="bmi-Xz-1PK"/>
+                            <constraint firstItem="noU-fK-YbU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="dwb-ED-4dY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewCarWashServices" destination="noU-fK-YbU" id="X7j-Ba-DGv"/>
+                        <outlet property="viewHeader" destination="OXW-Ro-776" id="SKI-uz-I3V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="70.923913043478265"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="128" height="128"/>
+        <image name="carWash" width="512" height="512"/>
+        <namedColor name="TabBarColor">
+            <color red="0.0" green="0.78200000524520874" blue="0.76999998092651367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

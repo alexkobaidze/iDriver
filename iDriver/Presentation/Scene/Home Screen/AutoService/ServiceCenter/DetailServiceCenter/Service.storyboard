@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Service View Controller-->
+        <scene sceneID="VEh-kJ-h4n">
+            <objects>
+                <viewController storyboardIdentifier="ServiceViewController" id="pb7-aN-4w2" customClass="ServiceViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fXy-JT-o1u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tX2-yr-eMF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H18-tP-5l8" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MAH-1t-afM">
+                                                <rect key="frame" x="20" y="8" width="374" height="200"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tegetaTitle" translatesAutoresizingMaskIntoConstraints="NO" id="iKp-3O-ObY">
+                                                        <rect key="frame" x="8" y="22" width="358" height="157"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsC-OK-ve0">
+                                                        <rect key="frame" x="18" y="22" width="48" height="48"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="48" id="0Ae-Mt-LIs"/>
+                                                            <constraint firstAttribute="height" constant="48" id="gXO-nF-f8c"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button" image="back"/>
+                                                        <connections>
+                                                            <action selector="didClickOnBack:" destination="pb7-aN-4w2" eventType="touchUpInside" id="D4n-UB-W06"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="OsC-OK-ve0" firstAttribute="top" secondItem="MAH-1t-afM" secondAttribute="top" constant="22" id="1Gm-bs-bGh"/>
+                                                    <constraint firstAttribute="trailing" secondItem="OsC-OK-ve0" secondAttribute="trailing" constant="308" id="Pbc-wU-4EZ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="OsC-OK-ve0" secondAttribute="bottom" constant="130" id="QnC-ay-4Tj"/>
+                                                    <constraint firstItem="OsC-OK-ve0" firstAttribute="leading" secondItem="MAH-1t-afM" secondAttribute="leading" constant="18" id="Ywb-Lx-p9T"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Say-pq-dD3">
+                                                <rect key="frame" x="100" y="1070" width="214" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="sLe-Ov-y0R"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="ვიზიტის დაჯავშნა">
+                                                    <color key="titleColor" systemColor="systemGreenColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="emailButtonTapped:" destination="pb7-aN-4w2" eventType="touchUpInside" id="Z0T-tp-olE"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ტეგეტა მოტორსი - სერვის ცენტრი სადაც გაერთიანებულია ყველა სერვისი შენი ავტომობილისთვის. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-sV-dX8">
+                                                <rect key="frame" x="8" y="245" width="398" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJP-Es-dfT">
+                                                <rect key="frame" x="28" y="464" width="358" height="205"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">კონტაქტი:  ქ. თბილისი, დ. აღმაშენებლის ხეივანი მე-12 კმ, №5
+სამუშაო საათები:
+ორშაბათი - პარასკევი: 09:30 - 18:30
+შაბათი: 09:30 - 18:30
+კვირა: არასამუშაო დღე
+TEL: +995 32 226 44 44  (ქოლ ცენტრი)
+TEL: +995 32 224 44 44  (სათაო ოფისი)
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" systemColor="systemYellowColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y0g-Tn-2Fh" userLabel="ReservView">
+                                                <rect key="frame" x="40" y="768" width="334" height="202"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ვიზიტის დეტალები" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgs-FJ-ZfI">
+                                                        <rect key="frame" x="58" y="23" width="212" height="47"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="სერვისის ტიპი" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cJg-y6-Agz">
+                                                        <rect key="frame" x="67" y="118" width="200" height="34"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.71153248439969785" green="0.8546742141145911" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="237" id="5Yf-p8-9Ip"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <constraints>
+                                            <constraint firstItem="MAH-1t-afM" firstAttribute="top" secondItem="H18-tP-5l8" secondAttribute="top" constant="8" id="AQY-3i-OO9"/>
+                                            <constraint firstItem="MAH-1t-afM" firstAttribute="leading" secondItem="H18-tP-5l8" secondAttribute="leading" constant="20" id="AtV-aB-m7Y"/>
+                                            <constraint firstItem="y0g-Tn-2Fh" firstAttribute="top" secondItem="H18-tP-5l8" secondAttribute="top" constant="733" id="H4J-Hr-oFn"/>
+                                            <constraint firstAttribute="trailing" secondItem="Say-pq-dD3" secondAttribute="trailing" constant="100" id="KUo-bA-cOm"/>
+                                            <constraint firstItem="y0g-Tn-2Fh" firstAttribute="leading" secondItem="H18-tP-5l8" secondAttribute="leading" constant="40" id="UAr-QC-gey"/>
+                                            <constraint firstAttribute="bottom" secondItem="Say-pq-dD3" secondAttribute="bottom" constant="50" id="Wq3-Kr-J9e"/>
+                                            <constraint firstAttribute="trailing" secondItem="MAH-1t-afM" secondAttribute="trailing" constant="20" id="XDG-bl-Otu"/>
+                                            <constraint firstAttribute="height" constant="1200" id="Xsq-my-4RA"/>
+                                            <constraint firstItem="Say-pq-dD3" firstAttribute="leading" secondItem="H18-tP-5l8" secondAttribute="leading" constant="100" id="ldp-hq-DNv"/>
+                                            <constraint firstAttribute="trailing" secondItem="y0g-Tn-2Fh" secondAttribute="trailing" constant="40" id="sdN-Tk-kZx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="H18-tP-5l8" secondAttribute="trailing" id="1Kd-XO-dPy"/>
+                                    <constraint firstAttribute="bottom" secondItem="H18-tP-5l8" secondAttribute="bottom" id="6s9-cC-K4z"/>
+                                    <constraint firstItem="H18-tP-5l8" firstAttribute="leading" secondItem="tX2-yr-eMF" secondAttribute="leading" id="m1l-QA-p67"/>
+                                    <constraint firstItem="H18-tP-5l8" firstAttribute="top" secondItem="tX2-yr-eMF" secondAttribute="top" id="mI4-b7-4Hs"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0q6-Ho-xgK"/>
+                        <color key="backgroundColor" name="TabBarColorDark"/>
+                        <constraints>
+                            <constraint firstItem="H18-tP-5l8" firstAttribute="width" secondItem="fXy-JT-o1u" secondAttribute="width" id="HPA-za-uWU"/>
+                            <constraint firstItem="tX2-yr-eMF" firstAttribute="top" secondItem="0q6-Ho-xgK" secondAttribute="top" id="RgU-L4-smQ"/>
+                            <constraint firstItem="tX2-yr-eMF" firstAttribute="trailing" secondItem="0q6-Ho-xgK" secondAttribute="trailing" id="SmW-a6-1mv"/>
+                            <constraint firstItem="tX2-yr-eMF" firstAttribute="leading" secondItem="0q6-Ho-xgK" secondAttribute="leading" id="Ytk-et-BEU"/>
+                            <constraint firstItem="tX2-yr-eMF" firstAttribute="bottom" secondItem="0q6-Ho-xgK" secondAttribute="bottom" id="euy-1L-BRm"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1200"/>
+                    <connections>
+                        <outlet property="contactLabel" destination="AJP-Es-dfT" id="bZ8-a3-vOU"/>
+                        <outlet property="headerView" destination="MAH-1t-afM" id="6lG-ij-mTz"/>
+                        <outlet property="reservButton" destination="Say-pq-dD3" id="cgx-4l-whh"/>
+                        <outlet property="reservView" destination="y0g-Tn-2Fh" id="IcW-dM-M9r"/>
+                        <outlet property="serviceTitle" destination="iKp-3O-ObY" id="wRW-6D-feB"/>
+                        <outlet property="serviceTypeTextField" destination="cJg-y6-Agz" id="Rre-xE-rYo"/>
+                        <outlet property="titleLabel" destination="H6v-sV-dX8" id="t9b-dK-4qR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcl-NX-nuK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340.57971014492756" y="88.858695652173921"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="128" height="128"/>
+        <image name="tegetaTitle" width="512" height="250"/>
+        <namedColor name="TabBarColorDark">
+            <color red="0.38899999856948853" green="0.23800000548362732" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

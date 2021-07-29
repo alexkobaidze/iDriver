@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gas Station View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="GasStationViewController" id="Y6W-OH-hqX" customClass="GasStationViewController" customModule="iDriver" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="26Z-EW-Yav">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="541"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="0Nu-1a-k2q"/>
+                                </connections>
+                            </mapView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gulf_logo" translatesAutoresizingMaskIntoConstraints="NO" id="b2d-J6-9EM">
+                                <rect key="frame" x="0.0" y="549" width="116" height="79"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="გალფი.Gulf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgA-MR-fXR">
+                                <rect key="frame" x="195" y="554" width="189" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 📍ნიკეას ქუჩა 3 19ა" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRM-2W-pGT">
+                                <rect key="frame" x="223" y="634" width="171" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📍ლერმონტოვის 105" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tal-v2-1Ta">
+                                <rect key="frame" x="228" y="663" width="178" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📍26 მაისის ქუჩა" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQn-YH-1a6">
+                                <rect key="frame" x="228" y="696" width="184" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📍წყალსადენის N11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rtg-zs-DLR">
+                                <rect key="frame" x="0.0" y="663" width="170" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Zxa-w2-g9f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="📍მეგობრობის ქ." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1f-uO-GdB">
+                                <rect key="frame" x="0.0" y="696" width="185" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📍ნიკეას ქუჩა 3 19ა" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2q-aG-ra5">
+                                <rect key="frame" x="-1" y="633" width="166" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fFa-SY-ohz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.00065498479179999997" green="0.0024275628090000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnd-NK-7p8">
+                                <rect key="frame" x="20" y="20" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="7As-FU-h7R"/>
+                                </constraints>
+                                <state key="normal" image="back"/>
+                                <connections>
+                                    <action selector="didClickOnBack:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="UJJ-yS-CEz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b2d-J6-9EM" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="549" id="0JP-5Y-6OQ"/>
+                            <constraint firstAttribute="bottom" secondItem="b2d-J6-9EM" secondAttribute="bottom" constant="108" id="4BL-ld-V1C"/>
+                            <constraint firstItem="Rtg-zs-DLR" firstAttribute="leading" secondItem="b2d-J6-9EM" secondAttribute="leading" id="4JM-qJ-4uO"/>
+                            <constraint firstItem="K2q-aG-ra5" firstAttribute="top" secondItem="b2d-J6-9EM" secondAttribute="bottom" constant="5" id="7WE-tT-6VQ"/>
+                            <constraint firstItem="Tal-v2-1Ta" firstAttribute="leading" secondItem="LQn-YH-1a6" secondAttribute="leading" id="7mB-80-BhB"/>
+                            <constraint firstItem="Rtg-zs-DLR" firstAttribute="baseline" secondItem="Tal-v2-1Ta" secondAttribute="baseline" id="82g-uF-lJb"/>
+                            <constraint firstItem="Tal-v2-1Ta" firstAttribute="top" secondItem="GRM-2W-pGT" secondAttribute="bottom" constant="8" symbolic="YES" id="AZk-s2-jVL"/>
+                            <constraint firstItem="e1f-uO-GdB" firstAttribute="firstBaseline" secondItem="LQn-YH-1a6" secondAttribute="firstBaseline" id="AjR-OG-gRV"/>
+                            <constraint firstItem="e1f-uO-GdB" firstAttribute="centerY" secondItem="LQn-YH-1a6" secondAttribute="centerY" id="HD5-q7-hxp"/>
+                            <constraint firstAttribute="trailing" secondItem="26Z-EW-Yav" secondAttribute="trailing" id="JMw-ZR-jVX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LQn-YH-1a6" secondAttribute="bottom" constant="18" id="JY7-5v-IrJ"/>
+                            <constraint firstItem="e1f-uO-GdB" firstAttribute="top" secondItem="Rtg-zs-DLR" secondAttribute="bottom" constant="12" id="KJ1-hR-Llz"/>
+                            <constraint firstItem="b2d-J6-9EM" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="LnU-Fn-daK"/>
+                            <constraint firstItem="Rtg-zs-DLR" firstAttribute="leading" secondItem="e1f-uO-GdB" secondAttribute="leading" id="QVn-yQ-90n"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="pgA-MR-fXR" secondAttribute="trailing" constant="30" id="QfG-QQ-zMj"/>
+                            <constraint firstItem="pgA-MR-fXR" firstAttribute="centerY" secondItem="b2d-J6-9EM" secondAttribute="centerY" id="Rz4-0c-hD9"/>
+                            <constraint firstItem="26Z-EW-Yav" firstAttribute="leading" secondItem="b2d-J6-9EM" secondAttribute="leading" id="T00-ev-Qtl"/>
+                            <constraint firstItem="26Z-EW-Yav" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="VsO-Sk-fgg"/>
+                            <constraint firstItem="pgA-MR-fXR" firstAttribute="leading" secondItem="b2d-J6-9EM" secondAttribute="trailing" constant="79" id="Vz9-gB-H4u"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Wnd-NK-7p8" secondAttribute="trailing" constant="346" id="XYo-Ee-5CK"/>
+                            <constraint firstItem="pgA-MR-fXR" firstAttribute="top" secondItem="26Z-EW-Yav" secondAttribute="bottom" constant="13" id="bbd-8c-cEI"/>
+                            <constraint firstAttribute="trailing" secondItem="b2d-J6-9EM" secondAttribute="trailing" constant="298" id="dym-xl-erz"/>
+                            <constraint firstItem="GRM-2W-pGT" firstAttribute="leading" secondItem="K2q-aG-ra5" secondAttribute="trailing" constant="58" id="fIN-yQ-i4p"/>
+                            <constraint firstItem="Rtg-zs-DLR" firstAttribute="top" secondItem="K2q-aG-ra5" secondAttribute="bottom" constant="9" id="fJM-HG-w6h"/>
+                            <constraint firstItem="b2d-J6-9EM" firstAttribute="top" secondItem="26Z-EW-Yav" secondAttribute="bottom" constant="8" symbolic="YES" id="gcu-OU-3C0"/>
+                            <constraint firstItem="Wnd-NK-7p8" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="20" symbolic="YES" id="htg-2y-bW9"/>
+                            <constraint firstItem="LQn-YH-1a6" firstAttribute="leading" secondItem="e1f-uO-GdB" secondAttribute="trailing" constant="43" id="lzh-6w-AO9"/>
+                            <constraint firstItem="Wnd-NK-7p8" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="njT-8u-sst"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LQn-YH-1a6" secondAttribute="trailing" constant="2" id="peW-Wt-3ge"/>
+                            <constraint firstItem="Tal-v2-1Ta" firstAttribute="leading" secondItem="Rtg-zs-DLR" secondAttribute="trailing" constant="58" id="qT1-2Y-ahY"/>
+                            <constraint firstItem="GRM-2W-pGT" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailingMargin" id="tr0-As-b2t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="26Z-EW-Yav" id="wQy-B0-fs1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101.44927536231884" y="75.815217391304358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Gulf_logo" width="990" height="899"/>
+        <image name="back" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

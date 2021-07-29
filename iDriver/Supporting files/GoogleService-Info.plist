@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1065594935253-1qeu8a4dqc7v98iaaeaib0ksr5o0uack.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1065594935253-1qeu8a4dqc7v98iaaeaib0ksr5o0uack</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3TywOWn1OBVVy35m99HPDxv_uqzZeWrw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1065594935253</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Alex.iDriver</string>
+	<key>PROJECT_ID</key>
+	<string>idriver-55d94</string>
+	<key>STORAGE_BUCKET</key>
+	<string>idriver-55d94.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1065594935253:ios:56c27cf68c2cfea77c8f5c</string>
+</dict>
+</plist>
